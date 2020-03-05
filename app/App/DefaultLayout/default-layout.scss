@@ -1,0 +1,31 @@
+.layout {
+    position: relative;
+
+   .side-bar-open ~ .layout-content {
+       padding-left: 210px;
+    }
+    .side-bar-close ~ .layout-content {
+        padding-left: 83px;
+   }
+    .layout-content {
+        height: calc(100vh - 60px);
+        overflow-x: hidden !important;
+        overflow-y: auto !important;
+        scrollbar-color: #979797 white;
+        scrollbar-width: thin;
+
+        &::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        &::-webkit-scrollbar-track {
+            background-color: white;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: #979797;
+            outline: 1px solid slategrey;
+            border-radius: 50px 50px;
+        }
+    }
+}

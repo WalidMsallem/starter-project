@@ -1,0 +1,131 @@
+@import '../App/variables';
+
+.x-flex {
+  display: flex;
+}
+
+.x-flex-h-between-v-any {
+  display: flex;
+  justify-content: space-between;
+}
+
+.x-flex-h-between-v-any-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.x-flex-h-any-v-center {
+  display: flex;
+  align-items: center;
+}
+
+.x-flex-h-any-v-start {
+  display: flex;
+  align-items: flex-start;
+}
+
+.x-flex-h-center-v-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.x-flex-h-between-v-start {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.x-flex-h-between-v-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.x-flex-h-flexEnd-v-center {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.x-flex-column-h-center-v-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.x-flex-column-h-center-v-any {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.x-flex-column-h-any-v-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.x-flex-column-h-between-v-any {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.x-color-blue {
+  color: $blue;
+}
+
+.x-background-color-green {
+  background-color: #1B9389;
+}
+
+.x-background-color-orange {
+  background-color: #F5A040;
+}
+
+.x-background-blue {
+  background-color: $blue;
+}
+
+.x-color-red {
+  color: #C7163C;
+}
+
+.x-background-red {
+  background-color: #C7163C;
+}
+
+.ant-select-focused .ant-select-selection,
+.ant-select-selection:focus,
+.ant-select-selection:active {
+  border-color: #40a9ff;
+  border-right-width: 1px !important;
+  outline: 0;
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+
+.x-required-field {
+  border-color: #c7163c !important;
+
+  .ant-select-selection {
+    border-color: #c7163c !important;
+  }
+}
+
+.has-error .ant-select-selection {
+  border-color: #c7163c !important;
+}
+
+.has-error .ant-form-explain,
+.has-error .ant-form-split {
+  color: #c7163c !important;
+  font-size: 13px !important;
+}
+
+.x-error-message {
+  color: #c7163c;
+  font-size: 13px;
+}
